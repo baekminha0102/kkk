@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>단축키 퀴즈</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>단축키 퀴즈</h1>
+    <div id="question">문제가 여기에 표시됩니다.</div>
+    <div class="choices">
+      <button onclick="checkAnswer(this)">보기1</button>
+      <button onclick="checkAnswer(this)">보기2</button>
+      <button onclick="checkAnswer(this)">보기3</button>
+      <button onclick="checkAnswer(this)">보기4</button>
+    </div>
+    <div id="feedback"></div>
+    <button id="nextBtn" onclick="nextQuestion()">다음 문제</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
